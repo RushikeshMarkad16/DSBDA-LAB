@@ -1,7 +1,12 @@
-# -*- coding: utf-8 -*-
+
 """Data_Wrangling_Lab_Assignment_1.ipynb
 
-<h1>Data Wrangling - I</h1>"""
+"""
+import pandas as pd
+
+import matplotlib.pylab as plt
+
+df=pd.read_csv("autodata.csv" )
 
 # To see what the data set looks like, we'll use the head() method.
 df.head(10)
