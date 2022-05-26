@@ -35,7 +35,7 @@ object Calendar
 
 #Execution Steps
 """
-## One Terminal 1 and run following command
+## Open Terminal 1 and run following command
 nc -lk 9999
 
 ## Open Terminal 2 and run following commands line by line
@@ -56,9 +56,5 @@ val wordCounts = words.groupBy("value").count()
 val query = wordCounts.writeStream.outputMode("complete").format("console").start()
 
 ## query.awaitTermination() //Most probably Not be needed
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
+
 """
